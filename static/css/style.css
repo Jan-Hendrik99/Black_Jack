@@ -1,0 +1,59 @@
+.container-1, .container-2, .container-3, .container-5 {
+    border:1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+@font-face { font-family: 'Digital Display';
+src: local('Digital Display')
+    url('static/css/Digital Display.ttf')  format('truetype'); }
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color, 
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1 {
+    background: url("https://ais-10072.kxcdn.com/wp-content/uploads/2019/10/blackjack-banner.png");
+    color: #ffffff;
+}
+.flex-blackjack-row-2 {
+    background: url("https://inhabitat.com/wp-content/blogs.dir/1/files/2018/02/wood-1580x549.jpg");
+    color: #ffffff;
+}
+.flex-box-container-1 div, .flex-blackjack-row-1 div {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.flex-box-container-1 div {
+    border: 1px solid black;
+}
+
+
+.flex-blackjack-row-1 div {
+    height: 460px;
+}
+
+table, th, td {
+    padding: 10px;
+    border: 1px solid black;
+}
+td {
+    text-align: center;
+    font-family: Digital Display, Arial, sans-serif;
+    }
+
+.flex-box-container-2 img {
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
